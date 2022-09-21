@@ -7,15 +7,16 @@
 		background-color:  gray;
 	}
 	footer{
-		background-color: goldenrod;
+		background-color: black;
 	}
+
 /* Align the h1 containing your name in the center of the header*/
 	h1{
 		text-align: center;
 	}
 /* Make your p tag a different color and italic */
 	p{
-		color: red;
+		color: whitesmoke;
 		font-style: italic;
 	}
 
