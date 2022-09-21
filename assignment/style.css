@@ -1,9 +1,18 @@
 /* Give your page a fun background color */
-
+	body{
+		background-color: aquamarine;
+	}
 /* Make the header and footer a different color from the background */
-
+	h1 {
+		background-color:  gray;
+	}
+	footer{
+		background-color: goldenrod;
+	}
 /* Align the h1 containing your name in the center of the header*/
-
+	h1{
+		align-items: center;
+	}
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
