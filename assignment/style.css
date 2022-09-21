@@ -26,10 +26,19 @@
 		border-color: red;
 		width: 200px;
 		height: 200px;
+		animation-name: rotate;
+		animation-duration: 6s;
 
 	}
 
 /* Change the font-family of your list */
 	li{
 		font-family: 'Times New Roman', Times, serif;
+	}
+
+
+	@keyframes rotate {
+		from {rotate: 90deg;}
+		to {rotate: 180deg;}
+		to{rotate: 270deg;}
 	}
