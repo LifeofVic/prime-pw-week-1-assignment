@@ -14,18 +14,19 @@
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 	command ls on an empty folder would return nothing. just a new command line. 
-
 	command ls on a folder with files will return the list of files in the folder.
 
 # 6 - What is a quick way to create a new file?
-
+	quick way to create a file is by using VS code and right clicking on the folder in which new files will sit in. 
 
 # 7 - Run 'git --version' in your terminal. What is the output?
 	git version 2.37.0 (Apple Git-136)
 
 # 8 - Why would you run the command 'git status'?
 	The git status command will let you see what changes have been made to the directory.
+
 # 9 - What does the command 'git add .' do?
 	The command git add . is saying that you are trying to add/update the information in the directory with the new infomation in the directory.
+
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 	git push origin main
