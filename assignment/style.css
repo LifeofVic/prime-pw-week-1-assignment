@@ -22,6 +22,10 @@
 /* Put a border around your image */
 	image{
 		border: 10px;
+		border-color: blueviolet;
+		width: 75px;
+		height: 75px;
+		
 	}
 
 /* Change the font-family of your list */
