@@ -28,7 +28,8 @@
 		height: 200px;
 		animation-name: rotate;
 		animation-duration: 6s;
-
+		animation-iteration-count: 2;
+		animation-direction: alternate-reverse;
 	}
 
 /* Change the font-family of your list */
