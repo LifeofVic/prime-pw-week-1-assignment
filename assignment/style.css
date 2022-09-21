@@ -20,7 +20,7 @@
 	}
 
 /* Put a border around your image */
-	image{
+	img{
 		border-style: dashed;
 		border-width: 10 px;
 		border-color: blueviolet;
