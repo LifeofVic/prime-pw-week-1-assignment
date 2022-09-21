@@ -1,48 +1,66 @@
 /* Give your page a fun background color */
-	body{
-		background-color: aquamarine;
-	}
+body {
+	background-color: aquamarine;
+}
+
 /* Make the header and footer a different color from the background */
-	h1 {
-		background-color:  gray;
-	}
-	footer{
-		background-color: black;
-	}
+h1 {
+	background-color: gray;
+}
+
+footer {
+	background-color: black;
+	position: fixed;
+	bottom: 0px;
+}
 
 /* Align the h1 containing your name in the center of the header*/
-	h1{
-		text-align: center;
-	}
+h1 {
+	text-align: center;
+	position:sticky;
+	top: 0px;
+}
+
 /* Make your p tag a different color and italic */
-	p{
-		color: whitesmoke;
-		font-style: italic;
-		
-	}
+p {
+	color: whitesmoke;
+	font-style: italic;
+
+}
 
 /* Put a border around your image */
-	img{
-		border-style: dashed;
-		border-width: 10 px;
-		border-color: red;
-		width: 200px;
-		height: 200px;
-		animation-name: rotate;
-		animation-duration: 6s;
-		animation-iteration-count: 2;
-		animation-direction: alternate-reverse;
-	}
+img {
+	border-style: dashed;
+	border-width: 10 px;
+	border-color: red;
+	width: 200px;
+	height: 200px;
+	animation-name: rotate;
+	animation-duration: 6s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
+}
 
 /* Change the font-family of your list */
-	li{
-		font-family: 'Times New Roman', Times, serif;
-	}
+li {
+	font-family: 'Times New Roman', Times, serif;
+}
 
 
-	@keyframes rotate {
-		from {rotate: 90deg;}
-		to {rotate: 180deg;}
-		to{rotate: 270deg;}
-		to {rotate: 360deg;}
+@keyframes rotate {
+	from {
+		rotate: 90deg;
 	}
+
+	to {
+		rotate: 180deg;
+	}
+
+	to {
+		rotate: 270deg;
+	}
+
+	to {
+		rotate: 360deg;
+	}
+}
